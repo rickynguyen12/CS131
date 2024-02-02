@@ -1,0 +1,37 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget
+    4  wget github.com
+    5  cd desktop
+    6  cd Desktop
+    7  git init
+    8  git init -b main
+    9  mkdir CS131
+   10  cd CS131
+   11  wget github.com
+   12  cd Desktop
+   13  mkdir CS131
+   14  cd CS131
+   15  mkdir Worksheet1
+   16  history > cmds.log
+   17  git commit
+   18  git config --global user.email "Rricky612@gmail.com"
+   19  git config --global user.name "Ricky Nguyen"
+   20  git commit -m "CMD Log Commit"
+   21  git add .
+   22  git commit -m "CMD Log Commit"
+   23  git push
+   24  cd Worksheet1
+   25  git add .
+   26  git commit -m "CMD Log Commit"
+   27  git push
+   28  git push Ricky Nguyen
+   29  git remote add Ricky Nguyen https://github.com/rickynguyen12/CS131.git
+   30  git push Ricky Nguyen
+   31  git push CS131 main
+   32  git push CS131 master
+   33  wget github.com
+   34  git init CS131
+   35  cd CS131
+   36  mkdir Worksheet1
+   37  history >cmds.log
