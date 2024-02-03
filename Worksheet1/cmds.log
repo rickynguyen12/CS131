@@ -1,0 +1,107 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget
+    4  wget github.com
+    5  cd desktop
+    6  cd Desktop
+    7  git init
+    8  git init -b main
+    9  mkdir CS131
+   10  cd CS131
+   11  wget github.com
+   12  cd Desktop
+   13  mkdir CS131
+   14  cd CS131
+   15  mkdir Worksheet1
+   16  history > cmds.log
+   17  git commit
+   18  git config --global user.email "Rricky612@gmail.com"
+   19  git config --global user.name "Ricky Nguyen"
+   20  git commit -m "CMD Log Commit"
+   21  git add .
+   22  git commit -m "CMD Log Commit"
+   23  git push
+   24  cd Worksheet1
+   25  git add .
+   26  git commit -m "CMD Log Commit"
+   27  git push
+   28  git push Ricky Nguyen
+   29  git remote add Ricky Nguyen https://github.com/rickynguyen12/CS131.git
+   30  git push Ricky Nguyen
+   31  git push CS131 main
+   32  git push CS131 master
+   33  wget github.com
+   34  git init CS131
+   35  cd CS131
+   36  mkdir Worksheet1
+   37  history >cmds.log
+   38  git commit -m "Worksheet 1 Commit"
+   39  git add Worksheet1
+   40  git add cmds.log
+   41  git commit -m "WS1 and Log"
+   42  git push
+   43  git remote add origin https://github.com/rickynguyen12/CS131.git
+   44  git push -u origin master
+   45  git remote set-url origin https://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@github.com/rickynguyen12/CS131.git
+   46  git push -u origin master
+   47  cd Worksheet1
+   48  git init
+   49  git remote add origin https://github.com/rickynguyen12/CS131.git
+   50  history > cmds.log
+   51  git add cmds.log
+   52  git commit -m "Cmd History"
+   53  git push -u origin master
+   54  git remote set-url origin https://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@github.com/rickynguyen12/CS131.git
+   55  git push -u origin master
+   56  git --force push
+   57  git fetch origin
+   58  git merge origin/master
+   59  git push origin master
+   60  git push --force origin master
+   61  pwd
+   62  git status
+   63  git fetch origin
+   64  git merge origin/master
+   65  ls -a
+   66  mkdir Worksheet1
+   67  cd /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/
+   68  mv Worksheet1/* .
+   69  mv Worksheet1/ .
+   70  rmdir Worksheet1
+   71  rm -r Worksheet1
+   72  cd Worksheet1
+   73  # Move cmds.log to the "Worksheet1" directory
+   74  mv path/to/cmds.log /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/Worksheet1/
+   75  history > cmds.log
+   76  mv path/to/cmds.log /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/Worksheet1/
+   77  # Move cmds.log to the "Worksheet1" directory
+   78  mv cmds.log /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/Worksheet1/
+   79  git add cmds.log
+   80  git commit
+   81  wget www.github.com
+   82  cd Desktop
+   83  mkdir CS131
+   84  cd CS131
+   85  rm Worksheet1
+   86  rm cmds.log
+   87  rm Worksheet1
+   88  rm CS131
+   89  pwd
+   90  rmdir CS131
+   91  rm -r CS131
+   92  rm -ri CS131
+   93  ls
+   94  rm Worksheet1
+   95  rmdir Worksheet1
+   96  rm -r Worksheet1
+   97  wget www.github.com
+   98  mkdir CS131
+   99  rm -r CS131
+  100  [rickysp24@sjsu ~]$ sudo rm -rf CS131
+  101  mkdir CS_131
+  102  cd CS_131
+  103  git init
+  104  mkdir Worksheet1
+  105  wget www.github.com
+  106  cd Worksheet1
+  107  history > cmds.log
