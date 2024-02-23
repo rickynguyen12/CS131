@@ -1,0 +1,294 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget
+    4  wget github.com
+    5  cd desktop
+    6  cd Desktop
+    7  git init
+    8  git init -b main
+    9  mkdir CS131
+   10  cd CS131
+   11  wget github.com
+   12  cd Desktop
+   13  mkdir CS131
+   14  cd CS131
+   15  mkdir Worksheet1
+   16  history > cmds.log
+   17  git commit
+   18  git config --global user.email "Rricky612@gmail.com"
+   19  git config --global user.name "Ricky Nguyen"
+   20  git commit -m "CMD Log Commit"
+   21  git add .
+   22  git commit -m "CMD Log Commit"
+   23  git push
+   24  cd Worksheet1
+   25  git add .
+   26  git commit -m "CMD Log Commit"
+   27  git push
+   28  git push Ricky Nguyen
+   29  git remote add Ricky Nguyen https://github.com/rickynguyen12/CS131.git
+   30  git push Ricky Nguyen
+   31  git push CS131 main
+   32  git push CS131 master
+   33  wget github.com
+   34  git init CS131
+   35  cd CS131
+   36  mkdir Worksheet1
+   37  history >cmds.log
+   38  git commit -m "Worksheet 1 Commit"
+   39  git add Worksheet1
+   40  git add cmds.log
+   41  git commit -m "WS1 and Log"
+   42  git push
+   43  git remote add origin https://github.com/rickynguyen12/CS131.git
+   44  git push -u origin master
+   45  git remote set-url origin https://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@github.com/rickynguyen12/CS131.git
+   46  git push -u origin master
+   47  cd Worksheet1
+   48  git init
+   49  git remote add origin https://github.com/rickynguyen12/CS131.git
+   50  history > cmds.log
+   51  git add cmds.log
+   52  git commit -m "Cmd History"
+   53  git push -u origin master
+   54  git remote set-url origin https://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@github.com/rickynguyen12/CS131.git
+   55  git push -u origin master
+   56  git --force push
+   57  git fetch origin
+   58  git merge origin/master
+   59  git push origin master
+   60  git push --force origin master
+   61  pwd
+   62  git status
+   63  git fetch origin
+   64  git merge origin/master
+   65  ls -a
+   66  mkdir Worksheet1
+   67  cd /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/
+   68  mv Worksheet1/* .
+   69  mv Worksheet1/ .
+   70  rmdir Worksheet1
+   71  rm -r Worksheet1
+   72  cd Worksheet1
+   73  # Move cmds.log to the "Worksheet1" directory
+   74  mv path/to/cmds.log /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/Worksheet1/
+   75  history > cmds.log
+   76  mv path/to/cmds.log /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/Worksheet1/
+   77  # Move cmds.log to the "Worksheet1" directory
+   78  mv cmds.log /mnt/scratch/FA23_CS131_Ashish/rickysp24/CS131/Worksheet1/
+   79  git add cmds.log
+   80  git commit
+   81  wget www.github.com
+   82  cd Desktop
+   83  mkdir CS131
+   84  cd CS131
+   85  rm Worksheet1
+   86  rm cmds.log
+   87  rm Worksheet1
+   88  rm CS131
+   89  pwd
+   90  rmdir CS131
+   91  rm -r CS131
+   92  rm -ri CS131
+   93  ls
+   94  rm Worksheet1
+   95  rmdir Worksheet1
+   96  rm -r Worksheet1
+   97  wget www.github.com
+   98  mkdir CS131
+   99  rm -r CS131
+  100  [rickysp24@sjsu ~]$ sudo rm -rf CS131
+  101  mkdir CS_131
+  102  cd CS_131
+  103  git init
+  104  mkdir Worksheet1
+  105  wget www.github.com
+  106  cd Worksheet1
+  107  history > cmds.log
+  108  cd CS_131
+  109  pwd
+  110  ls
+  111  git add Worksheet1/cmds.log
+  112  git add cmds.log
+  113  git commit -m "Cmds Log"
+  114  git push
+  115  git remote add origin https://github.com/rickynguyen12/CS_131.git
+  116  git push -u origin master
+  117  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
+  118  git push -u origin master
+  119  userdel bob
+  120  sudo userdel bob
+  121  sudo adduser rickysp24 sudo
+  122  cron
+  123  sudo useradd bob
+  124  clear
+  125  useradd bob
+  126  userdel bob
+  127  grep bob /etc/passwd
+  128  sudo passwd bob
+  129  su bob
+  130  whoami
+  131  su bob
+  132  pwd
+  133  ls
+  134  touch a.txt
+  135  ls
+  136  cd spotify-2023.csv
+  137  cd Desktop
+  138  clear
+  139  grep -i 'ice spice' spotify-2023.csv | grep "PinkPantheress"
+  140  grep -i 'ice spice' spotify-2023.csv | grep "PinkPantheress"| wc -l
+  141  clear
+  142  mkdir tryDir
+  143  ls tryDir/
+  144  ls -a tryDir
+  145  cd tryDir
+  146  cd ..
+  147  ls -ltr tryDir
+  148  cd tryDir
+  149  chmod 444 tryDir
+  150  touch a.txt
+  151  ls
+  152  chmod 444 tryDir
+  153  chmod 444 a.txt
+  154  chmod 777 a.txt
+  155  ls -ltr
+  156  chmod g-wxr a.txt
+  157  ls -ltr
+  158  chmod g+r a.txt
+  159  ls -ltr
+  160  clear
+  161  chmod g+rx a.txt
+  162  ls -ltr
+  163  chmod g+w a.txt
+  164  ls -ltr
+  165  chmod g-rwx a.txt
+  166  ls -ltr
+  167  cd ..
+  168  cd tryDir
+  169  touch aa.txt
+  170  touch b.txt
+  171  ls *.txt
+  172  ls [ab].txt
+  173  ls [!ab].txt
+  174  find . -empty
+  175  vi hasSomeData
+  176  rm hasSomeData
+  177  stat tryDir
+  178  ls ltr
+  179  ls -ltr
+  180  cd ..
+  181  strace mkdir
+  182  clear
+  183  git config --global user.email "Rricky612@gmail.com
+  184  exit
+  185  git config --global user.email "Rricky612@gmail.com"
+  186  git config --global user.name 
+  187  cd .ssh
+  188  cd ~/.ssh && ssh-keygen
+  189  cat id_rsa.pub
+  190  mkdir ~/.ssh
+  191  cat id_rsa.pub
+  192  cd .ssh
+  193  cat id_rsa.pub
+  194  cd ..
+  195  cd CS131
+  196  cd ..
+  197  exit
+  198  cd CS131
+  199  cat a.txt
+  200  touch a.txt
+  201  git add a.txt
+  202  git commit -m "Test"
+  203  git push
+  204  git add a.txt
+  205  git commit -m "Test"
+  206  git push
+  207  git add a.txt
+  208  git commit -m "Test"
+  209  git push
+  210  ls -al ~/.ssh
+  211  mkdir ~/.ssh
+  212  cd .ssh
+  213  cd ..
+  214  cs ./ssh
+  215  cd ./ssh
+  216  pwd
+  217  ls -ltr
+  218  rmdir CS_131
+  219  cd CS_131
+  220  ls
+  221  cd CS131
+  222  cd ..
+  223  cd CS131
+  224  ls
+  225  rm a.txt
+  226  ls
+  227  cd ..
+  228  cd CS_131
+  229  rm Worksheet1
+  230  rmdir Worksheet1
+  231  cd Worksheet1
+  232  ls
+  233  rm cmds.log
+  234  cd ..
+  235  cd CS_131
+  236  rmdir Worksheet1
+  237  cd ..
+  238  rmdir CS_131
+  239  cd CS_131
+  240  ls
+  241  rm index.html
+  242  ls
+  243  cd ..
+  244  rmdir CS_131
+  245  cd CS_131
+  246  ls
+  247  cd ..
+  248  clear
+  249  cd CS131
+  250  ls
+  251  cd Worksheet1
+  252  ls
+  253  clear
+  254  cd ..
+  255  cd ~/.ssh && ssh-keygen
+  256  cat id_rsa.pub
+  257  git remote add origin git@github.com:rickynguyen12/CS131.git
+  258  git commit -m "Message"
+  259  git restore cmds.log
+  260  git restore ../CS131/cmds.log
+  261  git push --set-upstream origin master
+  262  git pull origin master
+  263  git push origin master
+  264  git pull origin master
+  265  git pull origin master --allow-unrelated-histories
+  266  git push origin master
+  267  exit
+  268  ls
+  269  cd CS_131
+  270  ls
+  271  rm -r CS_131
+  272  cd ..
+  273  rm -r CS_131
+  274  cd CS131
+  275  ls
+  276  cd ..
+  277  cd CS131
+  278  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  279  ls
+  280  grep "United States" Global YouTube Statistics.csv
+  281  grep "United States" "Global YouTube Statistics.csv"
+  282  grep "Music" "Global YouTube Statistics.csv"
+  283  grep "Music" "Global YouTube Statistics.csv" | wc
+  284  grep "Music" "Global YouTube Statistics.csv" | wc > counts.txt
+  285  ls
+  286  mkdir Worksheet2
+  287  mv counts.txt Worksheet2
+  288  mv "Global YouTube Statistics.csv"
+  289  mv 'Global YouTube Statistics.csv'
+  290  mv 'Global YouTube Statistics.csv' Worksheet2
+  291  cd Worksheet2
+  292  ls
+  293  vi counts.txt
+  294  history > WS2cmds.log
