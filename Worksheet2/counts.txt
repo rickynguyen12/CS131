@@ -1,3 +1,2 @@
 Line Count = 238    
 Word Count = 830  
-Letter Count = 45858
