@@ -1,0 +1,41 @@
+2. echo $SHELL /bin/bash
+
+2. [rickysp24@sjsu ~]$ echo $SHELL
+/bin/bash
+
+3.[rickysp24@sjsu CS131]$ id -u
+1184
+[rickysp24@sjsu CS131]$ groups
+rickysp24 S77
+I looked over the slides for finding the groups I was apart of and searched online for user id.
+
+4.I was able to cd into mydir. I can ls and ls -l the file. But I cannot create a file in that directory.
+
+6.     total        used        free      shared  buff/cache   available
+Mem:          71367       30935       22006        3522       18426       35451
+Swap:          4119           0        4119
+
+9.[rickysp24@sjsu Assignment1]$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6",
+ It was under os-release.
+
+10. Users,Groups,and others all had read,write,execute permissions on the OS verison information.
+[rickysp24@sjsu Assignment1]$ ls -l /etc/os-release
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+

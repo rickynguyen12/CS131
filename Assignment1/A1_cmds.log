@@ -1,0 +1,66 @@
+  482  cd CS131
+  483  ls
+  484  mkdir Assignment1 "#1 Made directory for Assignment1"
+  485  ls
+  486  cd Assignment1
+  487  touch Assignment1.txt "Created the txt file to submit outputs"
+  488  ls
+  489  echo $SHELL "#2 ECHO current shell"
+  490  vi Assignment1.txt
+  491  cd ..
+  492  echo $SHELL "#2 ECHO home Shell"
+  493  cd CS131
+  494  cd Assignment1
+  495  vi Assignment1.txt
+  496  cd ..
+  497  id -u "#3 Found UID and groups"
+  498  groups
+  499  cd Assignment1
+  500  vi Assignment1.txt
+  501  cd ..
+  502  cd Assignment1
+  503  mkdir myDir "#4 Created myDir"
+  504  ls
+  505  chmod -w myDir "#4 Removed write permissions for myself"
+  506  ls -l
+  507  cd myDir
+  508  ls -l
+  509  touch a.txt
+  510  cd .. 
+  511  vi Assignment1.txt
+  512  mkdir myDir2 "#5 Created myDir2 and myDir3"
+  513  mkdir myDir3
+  514  cd myDir2
+  515  touch myFile.txt "#6 Created myFile.txt"
+  516  ls
+  517  mv myFile.txt myDir3
+  518  ls
+  519  mv myDir2/myFile.txt myDir3/ "#6 Moved txt file from myDir2 to myDir3"
+  520  ls
+  521  cd ..
+  522  cd myDir3
+  523  ls
+  524  cd ..
+  525  cd myDir2
+  526  mv myDir3 myFile.txt
+  527  ls
+  528  cd ..
+  529  ls
+  530  mv myDir2/myFile.txt myDir3/
+  531  cd myDir3
+  532  ls
+  533  cd ..
+  534  cd myDir2
+  535  ls
+  536  cd ..
+  537  man free
+  538  free -m "#6 Found the total amount of memory in mebibytes"
+  539  vi Assignment1.txt
+  540  cd ..
+  541  cat /etc/os-release "#9 Identifted OS verison"
+  542  cd CS131
+  543  cd Assignment1
+  544  vi Assignment1.txt
+  545  ls -l /etc/os-release "#10 Checked permissions of all users to OS info"
+  546  vi Assignment1.txt
+  547  history > A1_cmds.log "Saved Command Log"
