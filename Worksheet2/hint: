@@ -1,6 +1,0 @@
-nt: as appropriate to mark resolution and make a commit.
-fatal: Exiting because of an unresolved conflict.
-[rickysp24@sjsu Worksheet2]$ git rm Worksheet1/cmds.log
-fatal: pathspec 'Worksheet1/cmds.log' did not match any files
-[rickysp24@sjsu Worksheet2]$ 
-
