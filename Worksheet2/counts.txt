@@ -1,2 +1,2 @@
-Line Count = 238    
-Word Count = 830  
+Line Count = 202    
+Word Count = 202  
