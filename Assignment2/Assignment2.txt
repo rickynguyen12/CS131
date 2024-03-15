@@ -1,0 +1,55 @@
+1a. This command is searching for files and storing it into one.txt. And any issues with retrieving these files will be overwritten into two.txt
+1b. one.txt contains files we have permissions to see. two.txt contains files we do not have access to.
+
+2. The command used to get this was cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3.
+cut -d ',' -f 21,22 "Global YouTube Statistics.csv" - used to to get the created month and year
+sort | uniq -c - sorted months/years from cut and counted each unique occurrence
+sort -nr - sorted from highest number of channels/month so reverse order
+head -3 - prints the top 3
+
+9 May,12
+8 Sep,2
+8 Nov,21
+
+3.
+ps -u rickysp24
+    PID TTY          TIME CMD
+1374972 ?        00:00:00 systemd
+1374974 ?        00:00:00 (sd-pam)
+1374980 ?        00:00:00 sshd
+1374983 pts/2    00:00:00 bash
+1382804 pts/2    00:00:00 ps
+
+4b.
+[rickysp24@sjsu ~]$ ps -u rickysp24
+    PID TTY          TIME CMD
+1374972 ?        00:00:01 systemd
+1374974 ?        00:00:00 (sd-pam)
+1374980 ?        00:00:00 sshd
+1374983 pts/2    00:00:00 bash
+1383620 ?        00:00:00 sshd
+1383623 pts/4    00:00:00 bash
+1383738 pts/2    00:00:00 vim
+1383824 pts/4    00:00:00 ps
+PID for vim is 1383738
+
+4d.
+[rickysp24@sjsu ~]$ ps -u rickysp24
+    PID TTY          TIME CMD
+1374972 ?        00:00:01 systemd
+1374974 ?        00:00:00 (sd-pam)
+1374980 ?        00:00:00 sshd
+1374983 pts/2    00:00:00 bash
+1383620 ?        00:00:00 sshd
+1383623 pts/4    00:00:00 bash
+1384057 pts/2    00:00:00 vim
+1384342 pts/4    00:00:00 ps
+The vim PID changed so did the ps. 
+The vim PID changed because it was two unique processes when we entered the command so it has a unique PID.
+
+5. pidof systemd
+PID of init: 3854249
+The init process in linux makes the computer fully operational so it can communicate between the shell and kernel levels.
+
+6. ps aux contains all the processing currently running. It contains the unique PID, CPU used, Memory Used, time started, etc. This command will also display the users with all the information listed.
+

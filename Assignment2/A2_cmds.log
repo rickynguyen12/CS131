@@ -1,0 +1,49 @@
+  673  find /etc -type f > one.txt 2> two.txt
+  674  cat one.txt
+  675  cat two.txt
+  676  clear
+  677  cat two.txt
+  678  cd CS131
+  679  ls
+  680  mkdir Assignment2
+  681  cd Assigment2
+  682  cd Assignment2
+  683  touch Assignment2.txt
+  684  ls
+  685  find /etc -type f > one.txt 2> two.txt
+  686  cat one.txt
+  687  ls
+  688  vi Assignment2.txt
+  689  cd ..
+  690  ls
+  691  cd Assignment2
+  692  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  693  ls
+  694  cut -d ',' -f2, 3 "Global YouTube Statistics.csv" sor | uniq -c | sort -rn | head -n 3
+  695  cut -d ',' -f2,3 "Global YouTube Statistics.csv" | sort | uniq -c | sort -rn | head -n 3
+  696  cat "Gloval YouTube Statistics.csv"
+  697  ls
+  698  cat 'Global YouTube Statistics.csv'
+  699  clear
+  700  cut -d ',' -f22,23 "Global YouTube Statistics.csv" | sort | uniq -c | sort -rn | head -n 3
+  701  vi Assignment2.txt
+  702 ls
+  703  clear
+  704  cat 'Global YouTube Statistics.csv'
+  705 cut -d ',' -f 21,22 "Gloval YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3 
+  706  cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3
+  707  vi Assignment2.txt
+  708  ps aux
+  709  clear
+  710  ps aux rickysp24
+  711  ps -u rickysp24
+  712  vi Assignment2.txt
+  713  touch file.txt
+  714  vi file.txt
+  715  vi Assignment2.txt
+  716  pidof systemd
+  717  vi Assignment2.txt
+  718  ps aux
+  719  clear
+  720  vi Assignment2.txt
+  721  history > A2_cmds.log
