@@ -1,15 +1,15 @@
 1a. This command is searching for files and storing it into one.txt. And any issues with retrieving these files will be overwritten into two.txt
 1b. one.txt contains files we have permissions to see. two.txt contains files we do not have access to.
 
-2. The command used to get this was cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3.
-cut -d ',' -f 21,22 "Global YouTube Statistics.csv" - used to to get the created month and year
+2. The command used to get this was cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3.
+cut -d ',' -f 20,21 "Global YouTube Statistics.csv" - used to to get the created month and year
 sort | uniq -c - sorted months/years from cut and counted each unique occurrence
 sort -nr - sorted from highest number of channels/month so reverse order
 head -3 - prints the top 3
 
-9 May,12
-8 Sep,2
-8 Nov,21
+15 2006,Mar
+13 2014,Jul
+12 2014,Aug
 
 3.
 ps -u rickysp24

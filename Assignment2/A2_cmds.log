@@ -30,8 +30,8 @@
   702 ls
   703  clear
   704  cat 'Global YouTube Statistics.csv'
-  705 cut -d ',' -f 21,22 "Gloval YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3 
-  706  cut -d ',' -f 21,22 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3
+  705 cut -d ',' -f 20,21 "Gloval YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3 
+  706  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3
   707  vi Assignment2.txt
   708  ps aux
   709  clear
