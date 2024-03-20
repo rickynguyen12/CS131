@@ -1,0 +1,121 @@
+  764  mkdir Worksheet3
+  765  touch ws3.txt
+  766  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  767  ls
+  768  rm ws3.txt
+  769  ls
+  770  rm "Global YouTube Statistics.csv
+  771  exit
+  772  clear
+  773  cd CS131
+  774  ls
+  775  mv 'Global YouTube Statistics.csv" Worksheet3
+  776  cd CS131
+  777  ls
+  778  mv 'Global YouTube Statistics.csv
+  779  cd CS131
+  780  ls
+  781  rm "Global YouTube Statistics.csv"
+  782  ls
+  783  cd Worksheet3
+  784  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  785  ls
+  786  touch ws3.txt
+  787  cat "Global YouTube Statistics.csv"
+  788  clear
+  789  cat sort -k 15 "Global YouTube Statistics.csv" > 
+  790  cat sort -k 15 "Global YouTube Statistics.csv" 
+  791  touch test.txt
+  792  sort -k 15 "Global YouTube Statistics.csv" > test.txt
+  793  cat test.txt
+  794  rm test.txt
+  795  ls
+  796  touch highest_paid.txt
+  797  sort -k 15 "Global YouTube Statistics.csv" > highest_paid.txt
+  798  rm highest_paid.txt
+  799  ls
+  800  touch country.txt
+  801  grep -E "United States|United Kingdom|India" "Global YouTube Statistics.csv" > country.txt
+  802  cat country.txt
+  803  ls
+  804  rm country.txt
+  805  touch america.txt
+  806  touch india.txt
+  807  touch uk.txt
+  808  ls
+  809  grep -E "United States" "Global YouTube Statistics.csv" > america.txt
+  810  grep -E "United Kingdom" "Global YouTube Statistics.csv" > uk.txt
+  811  grep -E "India" "Global YouTube Statistics.csv" > india.txt
+  812  cat india.txt
+  813  clear
+  814  ls
+  815  touch high_india.txt
+  816  touch high_us.txt
+  817  touch high_uk.txt
+  818  ls
+  819  sort -t "," -k 16 -n -r america.txt | head -n 1 > high_us.txt
+  820  cat high_us.txt
+  821  sort -t "," -k 16 -n -r india.txt | head -n 1 > high_us.txt
+  822  rm high_us.txt
+  823  ls
+  824  touch high_us.txt
+  825  sort -t "," -k 16 -n -r america.txt | head -n 1 > high_us.txt
+  826  sort -t "," -k 16 -n -r india.txt | head -n 1 > high_india.txt
+  827  sort -t "," -k 16 -n -r uk.txt | head -n 1 > high_uk.txt
+  828  cat high_uk.txt
+  829  cat high_us.txt
+  830  cat high_india.txt
+  831  high_us.txt >> ws3.txt
+  832  mv high_us.txt ws3.txt
+  833  ls
+  834  mv high_uk.txt ws3.txt
+  835  mv high_india.txt ws3.txt
+  836  ls
+  837  cat ws3.txt
+  838  touch high_us.txt
+  839  touch high_uk.txt
+  840  touch high_india.txt
+  841  sort -t "," -k 16 -n -r america.txt | head -n 1 > high_us.txt
+  842  sort -t "," -k 16 -n -r india.txt | head -n 1 > high_india.txt
+  843  sort -t "," -k 16 -n -r uk.txt | head -n 1 > high_uk.txt
+  844  cat high_us.txt
+  845  cat high_india.txt
+  846  ls
+  847  cat high_us.txt high_uk.txt high_india.txt > ws3.txt
+  848  cat ws3.txt
+  849  vi ws3.txt
+  850  ls
+  851  touch sport.txt
+  852  touch edu.txt
+  853  touch entertainment.txt
+  854  grep -E "Sports" "Global YouTube Statistics.csv" > sport.txt
+  855  grep -E "Education" "Global YouTube Statistics.csv" > edu.txt
+  856  grep -E "Entertainment" "Global YouTube Statistics.csv" > entertainment.txt
+  857  sort -t "," -k 3 -n -r sport.txt | head -n 1 > high_us.txt
+  858  touch high_sport.txt
+  859  touch high_edu.txt
+  860  touch high_entertainment.txt
+  861  ls
+  862  sort -t "," -k 3 -n -r sport.txt | head -n 1 > high_sport.txt
+  863  cat high_sport.txt
+  864  sort -t "," -k 3 -n -r edu.txt | head -n 1 > high_edu.txt
+  865  sort -t "," -k 3 -n -r entertainment.txt | head -n 1 > high_entertainment.txt
+  866  ls
+  867  ls high_edu.txt
+  868  cat high_edu.txt
+  869  mv high_sport.txt high_edu.txt high_entertainment.txt > ws3.txt
+  870  cat high_entertainment.txt
+  871  mv high_sport.txt high_edu.txt high_entertainment.txt> ws3.txt
+  872  ls
+  873  mv high_sport.txt high_entertainment.txt high_edu.txt > ws3.txt
+  874  cat high_edu.txt high_entertainment.txt high_sport.txt > ws3.txt
+  875  touch ws3.txt
+  876  ls
+  877  cat ws3.txt
+  878  rm ws3.txt
+  879  ls
+  880  touch ws3.txt
+  881  cat high_us.txt high_uk.txt high_india.txt > ws3.txt
+  882  cat ws3.txt
+  883  vi ws3.txt
+  884  history > ws3_cmds.log
